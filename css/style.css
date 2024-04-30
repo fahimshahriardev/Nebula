@@ -1,0 +1,811 @@
+@font-face{
+	src:url(../fonts/EuclidCircularA-Medium.otf);
+	font-family: euclidmedium;
+}
+body{
+	font-family: euclidmedium;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image:url(../img/hamburger.png);
+}
+.hero-section{
+    
+	background:url(../img/herobg.png)no-repeat;
+	background-size: cover;
+    background-position: center center;
+
+	
+}
+ul li a{
+	color: white;
+
+
+}
+.logo-text{
+	color: white;
+	font-weight: 700;
+}
+.menu-text{
+	padding-right: 50px!important;
+	font-weight: 700;
+	color: white!important;
+}
+.menu-text:hover{
+	color: white;
+}
+.menu-btn{
+	 background-color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+}
+.head-text{
+	color: white;
+    font-size: 115px;
+    letter-spacing: 10px;
+}
+.head-sub-text{
+	color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.hero-btn{
+	background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 55px;
+    border-radius: 50px;
+    color: white;
+}
+.hero-div{
+	margin-top: 180px;
+	margin-bottom: 820px;
+}
+.learning{
+	background-color: #020532;
+}
+.learning-right{
+	color: white;
+    margin-top: 40px;
+    margin-bottom: 185px;
+}
+.inspire{
+	background-color: #020532;
+}
+.inspire-head {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.inspire-text{
+	color: white;
+	margin-top: 90px;
+}
+.embrace-text{
+	color: white;
+    margin-top: 200px;
+}
+.doing-text{
+	 color: white;
+    margin-top: 120px;
+}
+.comunity-text{
+	color: white;
+    margin-top: 200px;
+}
+
+.how{
+	    background-color: #020431;
+}
+.how-head{
+	color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.box-1{
+	text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 50px;
+    border-radius: 12px
+}
+
+
+.box-2{
+	text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 38px;
+    border-radius: 12px
+}
+
+
+.box-3{
+	text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 39px;
+    border-radius: 12px
+}
+
+.box-4{
+	text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 130px;
+}
+.how-dot{
+	position: absolute;
+    left: 300px;
+    top: -50px;
+}
+.how-row{
+	position: relative;
+
+}
+.box-text{
+	margin-top: 20px;
+}
+.ready{
+	background:url(../img/footer.png)no-repeat;
+	background-size: 100% 100%; 
+}
+.footer-head{
+	margin-top: 325px;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 35px;
+}.start-btn{
+	background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+}
+.active-btn{
+	background-color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #F594A7;
+	margin-bottom: 735px;
+}
+ul li{
+	display: inline;
+}
+.footer-border{
+	border-top:1px solid white;
+}
+.footer-menu{
+	margin-left: 40px;
+}
+.footer-menu:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer-row{
+	margin-top: 25px;
+}
+.footer-btn{
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+}
+.footer-btn:hover{
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width:520px){
+.head-text {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.reverse{
+    flex-direction: column-reverse;
+}
+.head-sub-text {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.hero-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 45px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 110px;
+}
+.how-dot {
+    position: absolute;
+    left: 200px;
+    top: -50px;
+}
+.hero-div {
+    margin-top: 60px;
+   margin-bottom: 75px; 
+}
+.learning-right {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 66px;
+    text-align: center;
+}
+.box-1 {
+    margin-bottom: 50px;
+}
+.box-2 {
+    margin-bottom: 50px;
+}
+.box-3 {
+    margin-bottom: 50px;
+}
+.box-4 {
+    margin-bottom: 50px;
+}
+
+.inspire-text {
+    color: white;
+    margin-top: 90px;
+    text-align: center;
+}
+.res-middle{
+    text-align: center;
+}
+
+.embrace-text {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+.doing-text {
+    color: white;
+    margin-top: 105px;
+    text-align: center;
+}
+.comunity-text {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: -80px;
+    text-align: center;
+}
+.footer-head {
+    margin-top: 0px; 
+    color: white;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.start-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+    margin-bottom: 735px;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+    margin-bottom: 80px;
+}
+.footer-menu {
+    margin-left: 14px;
+}
+
+
+	
+}
+
+
+
+
+@media (min-width: 521px) and (max-width:768px){
+
+
+    .head-text {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.head-sub-text {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.hero-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 45px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 210px;
+}
+.reverse{
+    flex-direction: column-reverse;
+}
+.hero-div {
+    margin-top: 60px;
+   margin-bottom: 75px; 
+}
+.box-1 {
+    margin-bottom: 50px;
+}
+.box-2 {
+    margin-bottom: 50px;
+}
+.box-3 {
+    margin-bottom: 50px;
+}
+.box-4 {
+    margin-bottom: 50px;
+}
+.learning-right {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 66px;
+    text-align: center;
+}
+
+.inspire-text {
+    color: white;
+    margin-top: 90px;
+    text-align: center;
+}
+.res-middle{
+    text-align: center;
+}
+
+.embrace-text {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.doing-text {
+    color: white;
+    margin-top: 105px;
+    text-align: center;
+}
+.comunity-text {
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+.footer-head {
+    margin-top: 0px; 
+    color: white;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.start-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+    margin-bottom: 735px;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #F594A7;
+    margin-bottom: 80px;
+}
+.footer-menu {
+    margin-left: 14px;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width:991px){
+
+.head-text {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.head-sub-text {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.hero-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+.hero-div {
+    margin-top: 180px;
+    margin-bottom: 296px;
+}
+.box-1 {
+    margin-bottom: 50px;
+}
+.box-2 {
+    margin-bottom: 50px;
+}
+.box-3 {
+    margin-bottom: 50px;
+}
+.box-4 {
+    margin-bottom: 50px;
+}
+.learning-right {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 110px;
+    font-size: 15px;
+}
+.learning-evolve{
+    font-size: 32px;
+}
+.inspire-head {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+}
+
+.inspire-text {
+    color: white;
+    margin-top: 60px;
+    font-size: 15px;
+}
+.inspire-sub-head{
+    font-size: 30px;
+}
+.embrace-text {
+    color: white;
+    margin-top: 100px;
+    font-size: 15px;
+}
+.embrace-sub-head{
+    font-size: 30px;
+}
+.doing-text {
+    color: white;
+    margin-top: 55px;
+    font-size: 15px;
+}
+.doing-sub-head{
+    font-size: 30px;
+}
+.comunity-text {
+    color: white;
+    margin-top: 95px;
+    font-size: 15px;
+}
+.comunitu-sub-head{
+    font-size: 30px;
+}
+
+
+.box-1 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 15px;
+    border-radius: 12px;
+}
+.box-2 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 13px;
+    border-radius: 12px;
+}
+.box-3 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 12px;
+    border-radius: 12px;
+}
+.box-4 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+}
+.box-sub-head{
+    font-size: 15px;
+}
+.box-sub-text{
+    font-size: 10px;
+}
+.how-dot {
+    position: absolute;
+    left: 100px;
+    top: -62px;
+}
+.footer-head {
+    margin-top: 90px;
+    color: white;
+    font-size: 29px;
+    margin-bottom: 35px;
+}
+.start-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 12px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #F594A7;
+       margin-bottom: 62px;
+}
+}
+
+
+
+@media (min-width: 991px) and (max-width:1200px){
+   .head-text {
+    color: white;
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+
+.head-sub-text {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.hero-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 260px;
+}
+.hero-div {
+    margin-top: 180px;
+    margin-bottom: 296px;
+}
+.learning-right {
+    color: white;
+    margin-top: 75px;
+    margin-bottom: 110px;
+    font-size: 15px;
+}
+.learning-evolve{
+    font-size: 32px;
+}
+.inspire-head {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+}
+
+.inspire-text {
+    color: white;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.inspire-sub-head{
+    font-size: 35px;
+}
+.embrace-text {
+    color: white;
+    margin-top: 195px;
+    font-size: 16px;
+}
+.embrace-sub-head{
+    font-size: 35px;
+}
+.doing-text {
+    color: white;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.doing-sub-head{
+    font-size: 35px;
+}
+.comunity-text {
+    color: white;
+    margin-top: 180px;
+    font-size: 16px;
+}
+.comunitu-sub-head{
+    font-size: 35px;
+}
+
+
+.box-1 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 15px;
+    border-radius: 12px;
+}
+.box-2 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 13px;
+    border-radius: 12px;
+}
+.box-3 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 12px;
+    border-radius: 12px;
+}
+.box-4 {
+    text-align: center;
+    color: white;
+    border: 1px solid #6b40da;
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+}
+.box-sub-head{
+    font-size: 15px;
+}
+.box-sub-text{
+    font-size: 10px;
+}
+.how-dot {
+    position: absolute;
+    left: 170px;
+    top: -62px;
+}
+.footer-head {
+    margin-top: 90px;
+    color: white;
+    font-size: 29px;
+    margin-bottom: 35px;
+}
+.start-btn {
+    background-color: #EF4B6D;
+    border: 1px solid #EF4B6D;
+    padding: 10px 12px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+.active-btn {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #F594A7;
+    margin-bottom: 200px;
+}
+.footer-menu {
+    margin-left: 4px;
+}
+}
+
+@media (min-width: 1201px) and (max-width:1400px){
+    .how-dot {
+    position: absolute;
+    left: 235px;
+    top: -50px;
+}
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+  
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1220px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -325px;
+}
+}
+@media (min-width: 1221px) and (max-width: 1235px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -313px;
+}
+}
+
+
+@media (min-width: 1236px) and (max-width: 1250px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -300px;
+}
+}
+
+
+@media (min-width: 1251px) and (max-width: 1269px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -283px;
+}
+}
+
+@media (min-width: 1270px) and (max-width: 1288px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -270px;
+}
+}
+
+@media (min-width: 1289px) and (max-width: 1318px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -250px;
+}
+}
+@media (min-width: 1318px) and (max-width: 1338px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -228px;
+}
+}
+
+
+@media (min-width: 1339px) and (max-width: 1360px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -209px;
+}
+}
+
+@media (min-width: 1361px) and (max-width: 1400px){
+.hero-section {
+    background: url(../img/herobg.png)no-repeat;
+    background-size: 100%;
+    margin-bottom: -190px;
+}
+}
